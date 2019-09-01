@@ -70,7 +70,7 @@ if ($key == 'sgblondon69') {
                 'Connection: Keep-Alive',
                 'User-Agent: okhttp/3.12.1'
             );
-            $order = request('https://api.gojekapi.com/gopoints/v1/orders', '{"gopay_pin":"","payment_type":"points","voucher_batch_id":"ab6000b2-70d5-4f5d-9761-940b49def36d","voucher_count":1}', null, $header_login);
+            $order = request('https://api.gojekapi.com/gopoints/v1/orders', '{"gopay_pin":"","payment_type":"points","voucher_batch_id":"8a706c6d-6e48-4bc0-9b38-b3539ca66c32","voucher_count":1}', null, $header_login);
             echo "[i] Response: [\e[0;0;42m".$order[1]."\e[0m]\n";
         } else {
             $regis = false;
